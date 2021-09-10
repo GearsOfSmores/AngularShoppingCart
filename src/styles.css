@@ -1,45 +1,44 @@
-.cart-item{
-    font-size: medium;
-  
+/* You can add global styles to this file, and also import other style files */
+.cart-item {
+  font-size: small;
 }
-.card, .form-control, .btn{
-    border-radius: 0;
 
+.filters {
+  font-size: small;
 }
-.list-group-item{
-    outline: .25px solid black;
-    outline-color: #0000003d
-}
-.card-header{
-    outline: .25px solid black;
-    outline-color: #00000021;
-}
-.card-body{
-    outline: .25px solid black;
-    outline-color: #00000021;
-}
-.form-control {
-    outline: .25px solid black;
-    outline-color: #0000003d
-}
-.list-group-item:first-child{
-    border-top-right-radius: 0;
-    border-top-left-radius: 0;
 
+.card, .form-control, .btn {
+  border-radius: 0;
 }
-.list-group-item:last-child{
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
+
+.list-group-item:first-child {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
 }
-.h4{
-    outline: .25px solid black;
-    outline-color: #0000003d
+
+.list-group-item:last-child {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
-.nav-header{
-    outline: .25px solid black;
-    outline-color: #0000003d;
+
+.product-btn {
+  font-size: smaller;
 }
-.product-img{
-    outline: .25px solid black;
-    outline-color: #0000003d;
+
+.fa-heart {
+  color: palevioletred;
+  cursor: pointer;
+}
+
+.guest-form-card h2 {
+  text-transform: uppercase;
+  font-size: medium;
+}
+
+.guest-form-card label {
+  font-size: small;
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+  cursor: not-allowed;
 }
